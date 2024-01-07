@@ -18,3 +18,6 @@ OBS: lembre de usar as tags corretamente para o parágrafo e para a imagem.</p>
   o cabeçalho dessa tabela terá as seguintes colunas: plano, descrição e preço. Para as linhas do corpo dessa tabela crie 3 planos fictícios onde cada plano ocupará uma linha nessa tabela
 
 OBS: poderá ser usado o chatGPT para gerar o texto de descrição.</p>
+
+
+<h3>Clique <a href="https://fmt-lista-3-ex-1a4.vercel.app/">aqui</a> e veja a atividade.</h3>
