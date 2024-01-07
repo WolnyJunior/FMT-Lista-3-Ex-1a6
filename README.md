@@ -1,4 +1,4 @@
-## 
+## Semana 1 - Módulo 1 - Lista de Exercícios 3 - Exercício 1 à 4
 <h3>Exercício 1</h3>
 <p>Imaginando uma página web de uma agência de seguro de viagens crie um arquivo HTML básico para começar a estruturar a sua página web.
    Para iniciar, crie um menu de navegação com 3 opções de navegação: início, sobre nós e planos. Não será necessário criar diferentes html, todas essas opções ficarão na mesma página.</p>
