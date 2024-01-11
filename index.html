@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FMT - Lista 3</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.2-web/css/all.css">
 </head>
 
 <body>
@@ -15,12 +16,12 @@
         </div>
         <nav>
             <ul>
-                <a href="#"></a>
-                <li>Início</li>
-                <a href="#sobre"></a>
-                <li>Sobre Nós</li>
-                <a href="#planos"></a>
-                <li>Planos</li>
+                <a href="#"><li>Início</li></a>
+                
+                <a href="#sobre"><li>Sobre Nós</li></a>
+                
+                <a href="#planos"><li>Planos</li></a>
+                
             </ul>
         </nav>
     </header>
@@ -41,7 +42,7 @@
 
     <div>
         <img src="./assets/img - travel 1.jpg" alt="imagem de viagem">
-        <h2>Sobre Nós</h2>
+        <h2 id="sobre">Sobre Nós</h2>
         <p>Bem-vindo à nossa agência de seguro de viagens, onde sua segurança é a nossa prioridade número um. Na Agência
             de Seguro de Viagens, entendemos que cada jornada é única e imprevistos podem acontecer. É por isso que
             oferecemos soluções abrangentes para proteger você durante suas aventuras ao redor do mundo. Nossos serviços
@@ -53,7 +54,7 @@
             de viagem sejam sempre positivas. Conte conosco para transformar sua próxima viagem em uma experiência
             segura e inesquecível.</p>
     </div>
-    <div>
+    <div id="planos">
         <h2>Planos</h2>
         <table>
             <tr>
@@ -83,6 +84,36 @@
 
         </table>
     </div>
+    <section>
+        <h2>Perguntas?</h2>
+        <form>
+            <div class="section-form">
+                <label for="email">Nome:</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <label for="pergunta">Pergunta:</label>
+                <textarea name="pergunta" id="pergunta" cols="30" rows="5" required
+                    placeholder="Se tiver mais alguma dúvida, nos envie uma mensagem."></textarea>
+            </div>
+            <div class="bts-form">
+                <button type="submit" value="Submit">Enviar</button>
+                <button type="reset" value="Reset">Apagar Formulário</button>    
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/WolnyJunior" target="_blank">Wolny Junior - Dev Web</a></p>
+        <p><i class="fa-regular fa-copyright"></i> - Todos os direitos reservados</p>
+
+        <div class="icones">
+            <a href="https://github.com/WolnyJunior" target="_blank"><i class="fa-brands fa-github icons"></i></a>
+            <a href="https://www.linkedin.com/in/wolny-junior-soares-magalh%C3%A3es-21a61b128/" target="_blank"><i class="fa-brands fa-linkedin-in icons"></i></a>
+            <a href="https://wa.me/5551996991804" target="_blank"><i class="fa-brands fa-whatsapp icons"></i></a>
+            <a href="mailto:juninho_sorin@hotmail.com" target="_blank"><i class="fa-regular fa-envelope icons"></i></a>
+            <a href="https://portfolio-2023-dusky.vercel.app/" target="_blank"><i class="fa-solid fa-link icons"></i></a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
