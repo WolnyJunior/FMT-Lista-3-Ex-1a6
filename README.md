@@ -17,7 +17,17 @@ OBS: lembre de usar as tags corretamente para o parágrafo e para a imagem.</p>
 <p>Para a etapa de planos crie dentro de outra seção um título usando a tag h2 com o texto “Planos”, abaixo desse título crie uma tabela usando a estrutura mais adequada, 
   o cabeçalho dessa tabela terá as seguintes colunas: plano, descrição e preço. Para as linhas do corpo dessa tabela crie 3 planos fictícios onde cada plano ocupará uma linha nessa tabela
 
-OBS: poderá ser usado o chatGPT para gerar o texto de descrição.</p>
+<h3>Exercício 5</h3>
+<p>Além dessas seções crie uma seção extra que receberá o título “Perguntas?” e abaixo dele crie uma estrutura de formulário com os campos “email” e “pergunta”.</p>
+
+<p>O campo email será um input com o tipo próprio para emails e deverá ter ligação entre a label e o campo (dica: usando o atributo for e id) e um placeholder.</p>
+
+<p>Já o campo pergunta deverá ser um textarea com placeholder.</p>
+
+<h3>Exercício 6</h3>
+<p>Para finalizar, ao final da página adicione um rodapé com o seu nome e o ano que executou o projeto. Ao usuário clicar no seu nome deverá ser redirecionado ao seu github pessoal.</p>
+
+<p>OBS: poderá ser usado o chatGPT para gerar o texto de descrição.</p>
 
 
 <h3>Clique <a href="https://fmt-lista-3-ex-1a4.vercel.app/">aqui</a> e veja a atividade.</h3>
